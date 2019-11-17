@@ -6,7 +6,7 @@ require_once('fungsi_validasi.php');
 $server =  "localhost";
 $username = "root";
 $password = "";
-$database = "db_desa";
+$database = "web";
 
 // Koneksi dan memilih database di server
 mysql_connect($server,$username,$password) or die("");
